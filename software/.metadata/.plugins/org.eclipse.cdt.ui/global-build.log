@@ -1,0 +1,968 @@
+18:09:27 **** Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:55:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:55:2: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c:77:11: error: redefinition of ‘i’
+../main.c:55:11: note: previous definition of ‘i’ was here
+../main.c:77:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:54:9: warning: unused variable ‘digest_split’ [-Wunused-variable]
+../main.c: In function ‘md5_calc_par’:
+../main.c:145:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:146:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:147:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:175:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:176:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:187:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:107:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:14:04 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:55:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:55:2: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c:77:11: error: redefinition of ‘i’
+../main.c:55:11: note: previous definition of ‘i’ was here
+../main.c:77:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:54:9: warning: unused variable ‘digest_split’ [-Wunused-variable]
+../main.c: In function ‘md5_calc_par’:
+../main.c:145:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:146:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:147:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:175:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:176:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:187:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:107:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:14:38 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:55:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:55:2: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c:77:11: error: redefinition of ‘i’
+../main.c:55:11: note: previous definition of ‘i’ was here
+../main.c:77:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:54:9: warning: unused variable ‘digest_split’ [-Wunused-variable]
+../main.c: In function ‘md5_calc_par’:
+../main.c:145:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:146:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:147:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:175:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:176:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:187:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:107:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:16:07 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:55:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:55:2: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c:77:11: error: redefinition of ‘i’
+../main.c:55:11: note: previous definition of ‘i’ was here
+../main.c:77:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:54:9: warning: unused variable ‘digest_split’ [-Wunused-variable]
+../main.c: In function ‘md5_calc_par’:
+../main.c:145:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:146:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:147:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:175:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:176:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:187:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:107:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:16:24 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:55:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:55:2: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c:77:11: error: redefinition of ‘i’
+../main.c:55:11: note: previous definition of ‘i’ was here
+../main.c:77:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:54:9: warning: unused variable ‘digest_split’ [-Wunused-variable]
+../main.c: In function ‘md5_calc_par’:
+../main.c:145:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:146:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:147:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:175:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:176:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:187:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:107:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:16:29 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:55:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:55:2: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c:77:11: error: redefinition of ‘i’
+../main.c:55:11: note: previous definition of ‘i’ was here
+../main.c:77:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:54:9: warning: unused variable ‘digest_split’ [-Wunused-variable]
+../main.c: In function ‘md5_calc_par’:
+../main.c:145:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:146:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:147:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:175:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:176:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:187:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:107:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:16:50 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:55:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:55:2: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c:77:11: error: redefinition of ‘i’
+../main.c:55:11: note: previous definition of ‘i’ was here
+../main.c:77:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:54:9: warning: unused variable ‘digest_split’ [-Wunused-variable]
+../main.c: In function ‘md5_calc_par’:
+../main.c:145:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:146:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:147:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:175:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:176:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:187:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:107:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:16:53 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:55:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:55:2: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c:77:11: error: redefinition of ‘i’
+../main.c:55:11: note: previous definition of ‘i’ was here
+../main.c:77:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:54:9: warning: unused variable ‘digest_split’ [-Wunused-variable]
+../main.c: In function ‘md5_calc_par’:
+../main.c:145:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:146:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:147:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:175:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:176:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:187:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:187:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:107:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:16:58 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:189:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:189:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:191:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:106:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:223:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:19:48 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:196:91: error: subscripted value is neither array nor pointer nor vector
+../main.c:196:105: error: subscripted value is neither array nor pointer nor vector
+../main.c:196:119: error: subscripted value is neither array nor pointer nor vector
+../main.c:196:133: error: subscripted value is neither array nor pointer nor vector
+../main.c:198:70: error: subscripted value is neither array nor pointer nor vector
+../main.c:106:11: warning: variable ‘hashed’ set but not used [-Wunused-but-set-variable]
+../main.c: In function ‘main’:
+../main.c:230:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+18:21:03 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:106:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:230:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+18:31:17 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:106:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:230:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+18:38:00 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+18:43:58 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+18:51:40 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:01:52 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:04:42 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:06:36 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:06:41 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+19:10:19 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:11:59 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:15:45 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:15:52 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+19:22:23 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:30:28 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:100:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:224:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:35:25 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:100:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:224:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:50:40 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:77:14: error: redeclaration of ‘i’ with no linkage
+../main.c:33:9: note: previous declaration of ‘i’ was here
+../main.c:77:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:77:5: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c:85:9: warning: unknown conversion type character ‘b’ in format [-Wformat]
+../main.c:85:9: warning: too many arguments for format [-Wformat-extra-args]
+../main.c: In function ‘md5_calc_par’:
+../main.c:112:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:236:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+19:50:50 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:85:9: warning: unknown conversion type character ‘b’ in format [-Wformat]
+../main.c:85:9: warning: too many arguments for format [-Wformat-extra-args]
+../main.c: In function ‘md5_calc_par’:
+../main.c:112:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:236:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+19:58:42 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_seq’:
+../main.c:74:14: error: redeclaration of ‘i’ with no linkage
+../main.c:33:9: note: previous declaration of ‘i’ was here
+../main.c:74:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+../main.c:74:5: note: use option -std=c99 or -std=gnu99 to compile your code
+../main.c: In function ‘md5_calc_par’:
+../main.c:112:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:236:10: warning: unused variable ‘i’ [-Wunused-variable]
+make: *** [main.o] Error 1
+19:58:50 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:112:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:236:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:03:04 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:110:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:234:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:07:33 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:100:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:224:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:15:33 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:97:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:15:49 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:97:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:17:22 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+20:25:49 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:35:39 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:103:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:227:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:36:09 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+20:37:25 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:102:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:226:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:42:40 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:102:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:226:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:42:42 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+20:42:43 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+20:43:26 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+20:43:27 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+20:46:12 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:97:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:221:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:48:27 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:99:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:223:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:48:54 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+20:51:28 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:100:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:224:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:51:30 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+20:58:33 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:100:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:224:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+20:58:49 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+21:00:42 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:100:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:224:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:03:33 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:100:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:224:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:04:51 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+21:04:52 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+21:06:57 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:99:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:223:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:07:22 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+21:13:11 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:102:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:226:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:13:12 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+21:17:29 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:101:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:225:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:27:52 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:104:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:228:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:27:58 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+21:29:08 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:103:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:227:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:29:31 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+21:30:42 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:102:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:226:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:30:45 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+21:32:19 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:105:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:229:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:54:49 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:110:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:234:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+21:54:54 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+22:01:04 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-linux-gnueabihf-gcc -I/usr/local/Quartus-EDS-14.0/embedded/ip/altera/hps/altera_hps/hwlib/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘md5_calc_par’:
+../main.c:110:11: warning: unused variable ‘hashed’ [-Wunused-variable]
+../main.c: In function ‘main’:
+../main.c:234:10: warning: unused variable ‘i’ [-Wunused-variable]
+Finished building: ../main.c
+ 
+Building target: md5_project
+Invoking: GCC C Linker
+arm-linux-gnueabihf-gcc  -o "md5_project"  ./main.o   -lpthread -lm -lrt
+Finished building target: md5_project
+ 
+22:01:55 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.
+22:01:58 **** Incremental Build of configuration Debug for project md5_project ****
+make all 
+make: Nothing to be done for `all'.

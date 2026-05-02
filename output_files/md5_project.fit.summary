@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Mar 23 17:28:32 2026
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : md5_project
+Top-level Entity Name : md5_project
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 13,480 / 32,070 ( 42 % )
+Total registers : 15238
+Total pins : 105 / 457 ( 23 % )
+Total virtual pins : 0
+Total block memory bits : 54,272 / 4,065,280 ( 1 % )
+Total RAM Blocks : 64 / 397 ( 16 % )
+Total DSP Blocks : 0 / 87 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 1 / 4 ( 25 % )

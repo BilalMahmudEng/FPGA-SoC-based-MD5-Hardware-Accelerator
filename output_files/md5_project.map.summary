@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Mar 23 17:24:38 2026
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : md5_project
+Top-level Entity Name : md5_project
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 12829
+Total pins : 105
+Total virtual pins : 0
+Total block memory bits : 54,272
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 1
